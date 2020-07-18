@@ -12,7 +12,7 @@ def long_planeteer_calls(long_calls)
   long_calls.any? { |over_four| return true if over_four.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(string)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  string.select(cheese_types)
 end
