@@ -1,5 +1,5 @@
 def roll_call_dwarves(arr)
-  arr.each_with_index(1) do |name, index|
+  arr.each.with_index(1) do |name, index|
     puts "#{index}. #{name}"
   end
 end
