@@ -20,6 +20,7 @@ def find_the_cheese(string)
       if cheese == cheese_types[i]
         return cheese
       end
-    i += 1
     end
+    i += 1
+  end
 end
