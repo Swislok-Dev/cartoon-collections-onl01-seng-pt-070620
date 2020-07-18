@@ -17,6 +17,9 @@ def find_the_cheese(string)
   i = 0
   while i < cheese_types.length
     string.each do |cheese|
-      return true if cheese == cheese_types[i]
+      if cheese == cheese_types[i]
+        return true
+      end
+
     end
 end
