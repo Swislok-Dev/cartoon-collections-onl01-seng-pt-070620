@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(string)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each do |cheese|
+  cheese_types.select do |cheese|
     if string == cheese
       return string
     end
